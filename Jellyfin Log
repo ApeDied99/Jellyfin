@@ -1,0 +1,339 @@
+hewlett@raspberrypi:~ $ sudo docker logs jellyfin
+[migrations] started
+[migrations] no migrations found
+usermod: no changes
+───────────────────────────────────────
+
+      ██╗     ███████╗██╗ ██████╗
+      ██║     ██╔════╝██║██╔═══██╗
+      ██║     ███████╗██║██║   ██║
+      ██║     ╚════██║██║██║   ██║
+      ███████╗███████║██║╚██████╔╝
+      ╚══════╝╚══════╝╚═╝ ╚═════╝
+
+   Brought to you by linuxserver.io
+───────────────────────────────────────
+
+To support the app dev(s) visit:
+Jellyfin: https://opencollective.com/jellyfin
+
+To support LSIO projects visit:
+https://www.linuxserver.io/donate/
+
+───────────────────────────────────────
+GID/UID
+───────────────────────────────────────
+
+User UID:    911
+User GID:    911
+───────────────────────────────────────
+
+[custom-init] No custom files found, skipping...
+failed to load external entity "/config/network.xml"
+[10:40:01] [INF] [4] Main: Jellyfin version: 10.8.13
+failed to load external entity "/config/network.xml"
+[10:40:01] [INF] [4] Main: Environment Variables: ["[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_CACHE_DIR, /config/cache]"]
+[10:40:01] [INF] [4] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[10:40:01] [INF] [4] Main: Operating system: Linux
+[10:40:01] [INF] [4] Main: Architecture: Arm64
+[10:40:01] [INF] [4] Main: 64-Bit Process: True
+[10:40:01] [INF] [4] Main: User Interactive: True
+[10:40:01] [INF] [4] Main: Processor count: 4
+[10:40:01] [INF] [4] Main: Program data path: /config/data
+[10:40:01] [INF] [4] Main: Web resources path: /usr/share/jellyfin/web
+[10:40:01] [INF] [4] Main: Application directory: /usr/lib/jellyfin/bin/
+[10:40:01] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["CreateNetworkConfiguration"]
+[10:40:01] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /config/cache
+[10:40:01] [INF] [4] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[10:40:01] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : [10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]
+[10:40:01] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : []
+[10:40:01] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: [10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]
+[10:40:01] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: []
+[10:40:01] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: []
+failed to load external entity "/config/network.xml"
+failed to load external entity "/config/network.xml"
+failed to load external entity "/config/network.xml"
+failed to load external entity "/config/network.xml"
+[10:40:05] [INF] [4] Jellyfin.Server.Implementations.JellyfinDbProvider: There are pending EFCore migrations in the database. Applying... (This may take a while, do not stop Jellyfin)
+failed to load external entity "/config/network.xml"
+failed to load external entity "/config/network.xml"
+[10:40:07] [INF] [4] Jellyfin.Server.Implementations.JellyfinDbProvider: EFCore migrations applied successfully
+failed to load external entity "/config/network.xml"
+[10:40:09] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[10:40:09] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /config/cache
+[10:40:09] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: TMDb 10.8.13.0
+[10:40:09] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: Studio Images 10.8.13.0
+[10:40:09] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: OMDb 10.8.13.0
+[10:40:09] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: MusicBrainz 10.8.13.0
+[10:40:09] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: AudioDB 10.8.13.0
+[10:40:09] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["DisableTranscodingThrottling", "CreateLoggingConfigHeirarchy", "MigrateActivityLogDatabase", "RemoveDuplicateExtras", "MigrateUserDatabase", "MigrateDisplayPreferencesDatabase", "RemoveDownloadImagesInAdvance", "MigrateAuthenticationDatabase"]
+[10:40:09] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration 'AddDefaultPluginRepository'
+[10:40:09] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[10:40:09] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /config/cache
+[10:40:09] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration 'AddDefaultPluginRepository' applied successfully
+[10:40:09] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration 'ReaddDefaultPluginRepository'
+[10:40:09] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration 'ReaddDefaultPluginRepository' applied successfully
+[10:40:09] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration 'AddPeopleQueryIndex'
+[10:40:09] [INF] [4] Jellyfin.Server.Migrations.Routines.AddPeopleQueryIndex: Creating index idx_TypedBaseItemsUserDataKeyType
+failed to load external entity "/config/network.xml"
+[10:40:09] [INF] [4] Jellyfin.Server.Migrations.Routines.AddPeopleQueryIndex: Creating index idx_PeopleNameListOrder
+[10:40:09] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration 'AddPeopleQueryIndex' applied successfully
+[10:40:09] [INF] [4] Main: Kestrel listening on Any IP4 Address
+[10:40:09] [WRN] [4] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[10:40:09] [WRN] [4] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+failed to load external entity "/config/network.xml"
+[10:40:10] [WRN] [4] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {b3f9d110-6dbd-40a0-9bec-e82e3795b772} may be persisted to storage in unencrypted form.
+[10:40:10] [INF] [4] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[10:40:10] [INF] [4] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for Extract Chapter Images set to fire at 2024-04-30 02:00:00.000 +00:00, which is 15:19:49.2403962 from now.
+[10:40:10] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version 5.1.4
+[10:40:10] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available decoders: ["libdav1d", "av1", "h264", "hevc", "mpeg2video", "mpeg4", "msmpeg4", "vp8", "libvpx", "vp9", "libvpx-vp9", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[10:40:10] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available encoders: ["libx264", "h264_v4l2m2m", "libx265", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[10:40:11] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["hwupload_vaapi", "zscale", "alphasrc"]
+[10:40:11] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: scale_cuda with option Output format (default "same") is not available
+[10:40:11] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: tonemap_cuda with option GPU accelerated HDR to SDR tonemapping is not available
+[10:40:11] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: tonemap_opencl with option bt2390 is not available
+[10:40:11] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: overlay_opencl with option Action to take when encountering EOF from secondary input is not available
+[10:40:11] [WRN] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: overlay_vaapi with option Action to take when encountering EOF from secondary input is not available
+[10:40:11] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["drm"]
+failed to load external entity "/config/network.xml"
+[10:40:11] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: /usr/lib/jellyfin-ffmpeg/ffmpeg
+[10:40:11] [INF] [4] Emby.Server.Implementations.ApplicationHost: ServerId: 27b090eb4e6e4767b403b4d5a063ebd5
+[10:40:12] [INF] [17] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.3914565
+[10:40:12] [INF] [17] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'AccessSchedule' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'ActivityLog' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'CustomItemDisplayPreferences' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'DisplayPreferences' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'HomeSection' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'ImageInfo' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'ItemDisplayPreferences' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'Permission' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'Preference' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'ApiKey' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'Device' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'DeviceOptions' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [WRN] [12] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'User' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[10:40:12] [INF] [17] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.7911867
+[10:40:12] [INF] [17] Main: Startup complete 0:00:12.2192789
+[10:40:12] [WRN] [12] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://localhost:8096/health to 127.0.0.1 in 0:00:01.2340824 with Status Code 200
+[ls.io-init] done.
+[10:40:13] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: StartupTrigger fired for task: Update Plugins
+[10:40:13] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task PluginUpdateTask
+[10:40:13] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing Update Plugins
+[10:40:15] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: Update Plugins Completed after 0 minute(s) and 1 seconds
+[10:40:15] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[10:43:24] [INF] [29] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[10:43:24] [INF] [29] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /config/cache
+[10:43:24] [INF] [23] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[10:43:24] [WRN] [23] Jellyfin.Server.Implementations.Users.UserManager: No users, creating one with username abc
+[10:43:25] [WRN] [23] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Startup/User to 192.168.178.154 in 0:00:01.6280556 with Status Code 200
+[10:43:53] [WRN] [32] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Startup/User to 192.168.178.154 in 0:00:00.6058001 with Status Code 204
+[10:44:09] [WRN] [32] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Library/VirtualFolders?collectionType=movies&refreshLibrary=false&name=Filme to 192.168.178.154 in 0:00:01.2594026 with Status Code 204
+[10:44:21] [WRN] [21] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Library/VirtualFolders?collectionType=tvshows&refreshLibrary=false&name=Serien to 192.168.178.154 in 0:00:01.0068048 with Status Code 204
+[10:44:36] [WRN] [22] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Library/VirtualFolders?collectionType=homevideos&refreshLibrary=false&name=Fotos to 192.168.178.154 in 0:00:01.0147791 with Status Code 204
+[10:44:51] [WRN] [28] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Library/VirtualFolders?collectionType=movies&refreshLibrary=false&name=Videos to 192.168.178.154 in 0:00:01.0127746 with Status Code 204
+[10:45:19] [WRN] [21] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Library/VirtualFolders?collectionType=music&refreshLibrary=false&name=Musik to 192.168.178.154 in 0:00:01.0273666 with Status Code 204
+[10:46:40] [INF] [21] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[10:46:40] [INF] [21] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /config/cache
+[10:46:45] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : [10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]
+[10:46:45] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : []
+[10:46:45] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: [10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]
+[10:46:45] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: []
+[10:46:45] [INF] [21] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: []
+[10:46:48] [INF] [33] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[10:46:48] [INF] [33] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /config/cache
+[10:46:48] [INF] [26] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task RefreshMediaLibraryTask
+[10:46:48] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing Scanne Medien-Bibliothek
+[10:46:48] [INF] [34] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[10:46:50] [ERR] [33] Emby.Server.Implementations.Library.LibraryManager: Error running post-scan task
+System.ArgumentException: Not enough valid pictures provided to create a splashscreen!
+   at Jellyfin.Drawing.Skia.SplashscreenBuilder.GenerateCollage(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops)
+   at Jellyfin.Drawing.Skia.SplashscreenBuilder.GenerateSplash(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops, String outputPath)
+   at Jellyfin.Drawing.Skia.SkiaEncoder.CreateSplashscreen(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops)
+   at Emby.Server.Implementations.Library.SplashscreenPostScanTask.Run(IProgress`1 progress, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.Library.LibraryManager.RunPostScanTasks(IProgress`1 progress, CancellationToken cancellationToken)
+[10:46:50] [INF] [34] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/videos
+[10:46:50] [INF] [21] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/photos
+[10:46:50] [INF] [35] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/tvshows
+[10:46:50] [INF] [36] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/movies
+[10:46:50] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/music
+[10:46:50] [INF] [33] Emby.Server.Implementations.ScheduledTasks.TaskManager: Scanne Medien-Bibliothek Completed after 0 minute(s) and 1 seconds
+[10:46:50] [INF] [33] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[10:47:01] [INF] [33] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for admin has succeeded.
+[10:47:01] [INF] [33] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user admin: 0/0
+[10:47:01] [INF] [33] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 612b27bb-dd68-4893-948b-eeee31192b6c
+[10:47:01] [WRN] [33] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Users/authenticatebyname to 192.168.178.154 in 0:00:01.0233291 with Status Code 200
+[10:47:02] [INF] [38] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 request
+[10:47:02] [WRN] [36] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/DisplayPreferences/usersettings?userId=612b27bbdd684893948beeee31192b6c&client=emby to 192.168.178.154 in 0:00:00.6691235 with Status Code 200
+[10:49:17] [INF] [22] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 closed
+[10:49:17] [INF] [33] Emby.Server.Implementations.Session.SessionManager: Logging out access token b2e4a08ee6604bb7bcff145993b12556
+[10:49:21] [INF] [22] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: CustomAuthentication was challenged.
+[10:49:24] [INF] [33] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for Klingel has succeeded.
+[10:49:24] [INF] [33] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user Klingel: 0/0
+[10:49:24] [INF] [33] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 6909dfad-be8f-41ca-8ee1-cf5068b01682
+[10:49:24] [INF] [22] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 request
+[10:50:14] [INF] [17] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[10:50:26] [INF] [17] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[10:56:22] [INF] [50] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 closed
+[10:56:22] [INF] [20] Emby.Server.Implementations.Session.SessionManager: Logging out access token 4d5e4c7e3aef4e75b1ad8044339a0fc1
+[10:56:26] [INF] [50] Jellyfin.Api.Auth.CustomAuthenticationHandler: AuthenticationScheme: CustomAuthentication was challenged.
+[10:56:27] [INF] [49] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for Streaming has succeeded.
+[10:56:27] [INF] [49] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user Streaming: 0/0
+[10:56:27] [INF] [49] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 488132c0-e9b8-4022-b7a9-560282bff96f
+[10:56:27] [INF] [49] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 request
+[10:57:15] [INF] [32] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[10:57:27] [INF] [41] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[10:59:01] [INF] [20] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 closed
+[10:59:02] [INF] [28] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 request
+[10:59:12] [INF] [19] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 closed
+[10:59:12] [INF] [39] Emby.Server.Implementations.Session.SessionManager: Logging out access token cd2dfeefe31141a588941bf4e5dc78f8
+[10:59:17] [INF] [19] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for admin has succeeded.
+[10:59:17] [INF] [19] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user admin: 0/0
+[10:59:17] [INF] [19] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 612b27bb-dd68-4893-948b-eeee31192b6c
+[10:59:17] [INF] [3] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 request
+[11:00:05] [INF] [39] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[11:00:17] [INF] [46] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[11:12:47] [INF] [37] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 closed
+[11:12:48] [INF] [39] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 request
+[11:12:49] [INF] [4] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 closed
+[11:12:50] [INF] [29] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 request
+[11:13:47] [INF] [35] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 closed
+[11:13:47] [INF] [21] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 request
+[11:14:31] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[11:14:31] [INF] [2] Main: Running query planner optimizations in the database... This might take a while
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing CoreAppHost
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing EmbyTV
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing DeviceAccessEntryPoint
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing UserDataChangeNotifier
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing EntryPoint
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing ExternalPortForwarding
+[11:14:31] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing RecordingNotifier
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing SchedulesDirect
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing UdpServerEntryPoint
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing EntryPoint
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing LibraryMonitorStartup
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing NotificationEntryPoint
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing MusicBrainzAlbumProvider
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing LibraryChangedNotifier
+[11:14:31] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing DlnaEntryPoint
+[11:14:31] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[11:14:31] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[11:14:31] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[11:14:31] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: SsdpCommunicationsServer disposing _BroadcastListenSocket
+[11:14:31] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: SsdpCommunicationsServer Disposing 3 sendSockets
+[11:14:31] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: SsdpCommunicationsServer disposing sendSocket from 0.0.0.0
+[11:14:31] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: SsdpCommunicationsServer disposing sendSocket from 172.17.0.2
+[11:14:31] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: SsdpCommunicationsServer disposing sendSocket from 127.0.0.1
+[11:14:31] [INF] [17] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 closed
+[migrations] started
+[migrations] no migrations found
+usermod: no changes
+───────────────────────────────────────
+
+      ██╗     ███████╗██╗ ██████╗
+      ██║     ██╔════╝██║██╔═══██╗
+      ██║     ███████╗██║██║   ██║
+      ██║     ╚════██║██║██║   ██║
+      ███████╗███████║██║╚██████╔╝
+      ╚══════╝╚══════╝╚═╝ ╚═════╝
+
+   Brought to you by linuxserver.io
+───────────────────────────────────────
+
+To support the app dev(s) visit:
+Jellyfin: https://opencollective.com/jellyfin
+
+To support LSIO projects visit:
+https://www.linuxserver.io/donate/
+
+───────────────────────────────────────
+GID/UID
+───────────────────────────────────────
+
+User UID:    911
+User GID:    911
+───────────────────────────────────────
+
+[custom-init] No custom files found, skipping...
+[11:14:58] [INF] [1] Main: Jellyfin version: 10.8.13
+[11:14:59] [INF] [1] Main: Environment Variables: ["[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]"]
+[11:14:59] [INF] [1] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[11:14:59] [INF] [1] Main: Operating system: Linux
+[11:14:59] [INF] [1] Main: Architecture: Arm64
+[11:14:59] [INF] [1] Main: 64-Bit Process: True
+[11:14:59] [INF] [1] Main: User Interactive: True
+[11:14:59] [INF] [1] Main: Processor count: 4
+[11:14:59] [INF] [1] Main: Program data path: /config/data
+[11:14:59] [INF] [1] Main: Web resources path: /usr/share/jellyfin/web
+[11:14:59] [INF] [1] Main: Application directory: /usr/lib/jellyfin/bin/
+[11:14:59] [INF] [1] Jellyfin.Server.Migrations.MigrationRunner: Applying migration 'CreateNetworkConfiguration'
+[11:14:59] [INF] [1] Jellyfin.Server.Migrations.MigrationRunner: Migration 'CreateNetworkConfiguration' applied successfully
+[11:14:59] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: /config/cache
+[11:14:59] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[11:15:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : [10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]
+[11:15:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : []
+[11:15:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: [10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]
+[11:15:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: []
+[11:15:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: []
+[11:15:08] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: TMDb 10.8.13.0
+[11:15:08] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: Studio Images 10.8.13.0
+[11:15:08] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: OMDb 10.8.13.0
+[11:15:08] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: MusicBrainz 10.8.13.0
+[11:15:08] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: AudioDB 10.8.13.0
+[11:15:08] [INF] [1] Main: Kestrel listening on Any IP4 Address
+[11:15:09] [WRN] [1] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[11:15:09] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[11:15:10] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {dd2b4f6d-aed6-4b6f-9b3e-b544c01db004} may be persisted to storage in unencrypted form.
+[11:15:10] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[11:15:10] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for Extrahiere Kapitel-Bilder set to fire at 2024-04-30 02:00:00.000 +00:00, which is 14:44:49.4295817 from now.
+[11:15:11] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version 5.1.4
+[11:15:11] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available decoders: ["libdav1d", "av1", "h264", "hevc", "mpeg2video", "mpeg4", "msmpeg4", "vp8", "libvpx", "vp9", "libvpx-vp9", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[11:15:11] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available encoders: ["libx264", "h264_v4l2m2m", "libx265", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[11:15:11] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["hwupload_vaapi", "zscale", "alphasrc"]
+[11:15:11] [WRN] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: scale_cuda with option Output format (default "same") is not available
+[11:15:11] [WRN] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: tonemap_cuda with option GPU accelerated HDR to SDR tonemapping is not available
+[11:15:11] [WRN] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: tonemap_opencl with option bt2390 is not available
+[11:15:11] [WRN] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: overlay_opencl with option Action to take when encountering EOF from secondary input is not available
+[11:15:11] [WRN] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Filter: overlay_vaapi with option Action to take when encountering EOF from secondary input is not available
+[11:15:11] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["drm"]
+[11:15:12] [WRN] [11] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://localhost:8096/health to 127.0.0.1 in 0:00:01.0749675 with Status Code 503
+[11:15:12] [WRN] [8] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/System/Info/Public to 192.168.178.154 in 0:00:00.9250226 with Status Code 503
+[11:15:12] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: /usr/lib/jellyfin-ffmpeg/ffmpeg
+[11:15:12] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: 27b090eb4e6e4767b403b4d5a063ebd5
+[11:15:12] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.4677084
+[11:15:12] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[11:15:13] [INF] [13] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/music
+[11:15:13] [INF] [11] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/photos
+[11:15:13] [INF] [13] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/tvshows
+[11:15:13] [INF] [17] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/movies
+[11:15:13] [INF] [11] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /data/videos
+[11:15:13] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.8390092
+[11:15:13] [INF] [1] Main: Startup complete 0:00:15.2831631
+[11:15:13] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: StartupTrigger fired for task: Aktualisiere Plugins
+[11:15:13] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task PluginUpdateTask
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'AccessSchedule' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'ActivityLog' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'CustomItemDisplayPreferences' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'DisplayPreferences' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'HomeSection' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'ImageInfo' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing Aktualisiere Plugins
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'ItemDisplayPreferences' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'Permission' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'Preference' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'ApiKey' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'Device' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'DeviceOptions' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Microsoft.EntityFrameworkCore.Model.Validation: The entity type 'User' is configured to use schema 'jellyfin', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[11:15:13] [WRN] [8] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://localhost:8096/health to 127.0.0.1 in 0:00:00.8888309 with Status Code 200
+[ls.io-init] done.
+[11:15:15] [WRN] [13] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/System/Info to 192.168.178.154 in 0:00:00.7234055 with Status Code 200
+[11:15:15] [INF] [8] Emby.Server.Implementations.HttpServer.WebSocketManager: WS 192.168.178.154 request
+[11:15:16] [WRN] [17] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Users/612b27bbdd684893948beeee31192b6c to 192.168.178.154 in 0:00:00.6857948 with Status Code 200
+[11:15:16] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: Aktualisiere Plugins Completed after 0 minute(s) and 2 seconds
+[11:15:16] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[11:15:16] [WRN] [10] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/DisplayPreferences/usersettings?userId=612b27bbdd684893948beeee31192b6c&client=emby to 192.168.178.154 in 0:00:01.2220365 with Status Code 200
+[11:15:17] [WRN] [13] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Sessions/Capabilities/Full to 192.168.178.154 in 0:00:02.0447069 with Status Code 204
+[11:15:17] [WRN] [11] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from http://192.168.178.48:8096/Users/612b27bbdd684893948beeee31192b6c/Views to 192.168.178.154 in 0:00:00.856075 with Status Code 200
+hewlett@raspberrypi:~ $
